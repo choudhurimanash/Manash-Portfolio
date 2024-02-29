@@ -27,7 +27,7 @@ function HomePage() {
           </p>
           <div>
             <a
-              href="/manash_choudhuri_CV.pdf"
+              href="/manashCV.pdf"
               download={true}
               target="_blank"
               rel="noreferrer"
