@@ -1,31 +1,48 @@
 import React from "react";
-import aa from "../assets/aa.jpg";
+import currencyConverter from "../assets/currencyConverter.png";
+import RockPaperScissors from "../assets/RockPaperScissors.png";
+import TicTacToe from "../assets/TicTacToe.png";
+import WeatherApp from "../assets/WeatherApp.png";
+import ToDoList from "../assets/ToDoList.png";
+import portfolio from "../assets/portfolio.png";
 
 function ProjectsPage() {
   const portfolios = [
     {
       id: 1,
-      src: aa,
+      src: currencyConverter,
+      code: "https://github.com/choudhurimanash/Currency-Converter",
+      demo: "https://choudhurimanash.github.io/Currency-Converter/",
     },
     {
       id: 2,
-      src: aa,
+      src: RockPaperScissors,
+      code: "https://github.com/choudhurimanash/RockPaperScissors",
+      demo: "https://choudhurimanash.github.io/RockPaperScissors/",
     },
     {
       id: 3,
-      src: aa,
+      src: TicTacToe,
+      code: "https://github.com/choudhurimanash/TicTacToe",
+      demo: "https://choudhurimanash.github.io/TicTacToe/",
     },
     {
       id: 4,
-      src: aa,
+      src: WeatherApp,
+      code: "https://github.com/choudhurimanash/Weather-App",
+      demo: "https://choudhurimanash.github.io/Weather-App/",
     },
     {
       id: 5,
-      src: aa,
+      src: ToDoList,
+      code: "https://github.com/choudhurimanash/To-Do-List",
+      demo: "https://choudhurimanash.github.io/To-Do-List/",
     },
     {
       id: 6,
-      src: aa,
+      src: portfolio,
+      code: "https://github.com/choudhurimanash/Manash-Portfolio",
+      demo: "https://manash-choudhuri.netlify.app/",
     },
   ];
 
@@ -46,7 +63,7 @@ function ProjectsPage() {
           className="grid sm:grid-cols-2 md:grid-cols-3 gap-4
           px-6 sm:px-0"
         >
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-yellow-300 rounded-lg">
               <img
                 src={src}
@@ -54,13 +71,21 @@ function ProjectsPage() {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center ">
-                <button className="w-1/2 px-3 py-1 duration-200 hover:scale-105 m-4  rounded-md
-            bg-gradient-to-r from-pink-500 to-purple-500">
-                  Demo
+                <button
+                  className="w-1/2 px-3 py-1 duration-200 hover:scale-105 m-4  rounded-md
+            bg-gradient-to-r from-pink-500 to-purple-500"
+                >
+                  <a href={demo} target="_blank" rel="noreferrer">
+                    Demo
+                  </a>
                 </button>
-                <button className="w-1/2 px-3 py-1 duration-200 hover:scale-105 m-4  rounded-md
-            bg-gradient-to-r from-pink-500 to-purple-500">
-                  Code
+                <button
+                  className="w-1/2 px-3 py-1 duration-200 hover:scale-105 m-4  rounded-md
+            bg-gradient-to-r from-pink-500 to-purple-500"
+                >
+                  <a href={code} target="_blank" rel="noreferrer">
+                    Code
+                  </a>
                 </button>
               </div>
             </div>
