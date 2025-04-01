@@ -20,7 +20,7 @@ const FooterPage = () => {
           <FaEnvelope className="text-2xl mx-1" />{" "}
           <p>manashchoudhuri4@gmail.com</p>
         </div>
-        <p className="mt-4 text-yellow-400">Designed & Developed by Manash Choudhuri | &copy;2023</p>
+        <p className="mt-4 text-yellow-400">Designed & Developed by Manash Choudhuri | &copy;2025</p>
         
         <div className="mt-4 flex justify-center space-x-4">
           {/* <a
