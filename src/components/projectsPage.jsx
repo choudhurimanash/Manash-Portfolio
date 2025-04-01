@@ -51,7 +51,7 @@ function ProjectsPage() {
       name="projects"
       className="bg-gradient-to-b via-black  from-yellow-800 to-pink-800 w-full text-white md:h-screen"
     >
-      <div className="max-w-screen-lg py-80 mx-auto flex flex-col justify-center w-ful h-full">
+      <div className="max-w-screen-lg py-20 md:py-80 mx-auto flex flex-col justify-center w-ful h-full">
         <div className="pb-8 text-center">
           <p className="text-4xl font-bold inline border-b-4 border-pink-300">
             Projects

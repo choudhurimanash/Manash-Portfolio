@@ -22,8 +22,9 @@ function HomePage() {
           <p className="py-4 max-w-md text-gray-300">
             As an <span className="bg-red-500 text-white p-1 rounded-xl font-medium">M.Sc Computer Science</span> student with a focus on Machine Learning
             and Deep Learning, I am adept in web development and bring a fresh
-            perspective to my work. I am excited about sharing my knowledge
-            through teaching.
+            perspective to my work.<br></br> 
+            I am currently working as a Assitant Professor 
+            at Mangaldai College.
           </p>
           <div>
             <a
@@ -35,9 +36,6 @@ function HomePage() {
             bg-gradient-to-r from-pink-500 to-yellow-500 cursor-pointer font-medium hover:scale-100 duration-300"
             >
               Resume
-              {/* <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardDoubleArrowRight size={20} className="ml-1" />
-              </span> */}
               <span>
                 <FaDownload size={16} className="ml-1" />
               </span>
@@ -48,7 +46,7 @@ function HomePage() {
           <img
             src={MyImage}
             alt="my_image"
-            className=" md:w-full mx-auto w-1/2 border-white border-t-4 border-r-4 rounded-full"
+            className=" md:w-full mx-auto w-1/2 border-white border-t-4 border-r-4 rounded-full mb-10 md:mb-0"
           />
         </div>
       </div>

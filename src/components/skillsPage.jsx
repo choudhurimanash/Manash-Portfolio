@@ -111,13 +111,13 @@ function SkillsPage() {
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b  via-black from-purple-800 to-yellow-800 w-full h-screen"
+      className="bg-gradient-to-b via-black from-purple-800 to-yellow-800 w-full h-screen"
     >
       <div
         className="max-w-screen-lg mx-auto pb-80 flex flex-col w-full
       h-full text-white"
       >
-        <div className="text-center">
+        <div className="text-center mt-10">
           <p className="text-4xl font-bold border-b-4 border-pink-300 p-1 inline">
             Technical Skills
           </p>
@@ -132,7 +132,7 @@ function SkillsPage() {
             >
               {icon}
               <p className="text-pink-600 font-bold text-lg ml-4 mt-[10px]">{title}</p>
-              <p className="mt-[11px] ml-3 text-gray-950">{exp}</p>
+              <p className="hidden sm:block mt-[11px] ml-3 text-gray-950">{exp}</p>
             </div>
           ))}
         </div>
